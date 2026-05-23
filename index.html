@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="google-site-verification" content="XUopJJaV02Jm8nkz70vSj-H1XlRj3qzgDEBseFIgUOw" />
+  <meta name="google-adsense-account" content="ca-pub-1031123635795926">
+  <meta name="description"
+    content="Check your resume with our free ATS Resume Checker. Get instant score, keyword analysis, and expert tips to optimize your resume and pass applicant tracking systems.">
+  <title>Free ATS Resume Checker</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src='https://push.aplu.io/push-notify.js'></script>
+
+  <meta name="google-adsense-account" content="ca-pub-4618587510768918">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4618587510768918"
+    crossorigin="anonymous"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-E9L9XBBEKH');
+  </script>
+</head>
+<style>
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    padding: 20px
+  }
+
+  .links a {
+    background: #eff6ff;
+    padding: 12px 20px;
+    font-weight: 500;
+    border: 1px solid #dbeafe;
+    transition: .3s
+  }
+
+  .links a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(37, 99, 235, .3)
+  }
+</style>
+
+<body>
+  <nav>
+    <div class="navcont">
+      <a href="/">
+        <div class="logo">
+          <h2><img src="/resume-portfolio-svgrepo-com.svg" height="50px" alt="logo"> ATS Resume Checker</h2>
+        </div>
+      </a>
+
+
+      <div class="navLinks">
+        <ul class="nav-links">
+          <li><a href="/" class="active">ATS Checker</a></li>
+          <li><a href="resume-builder.html">Resume Builder</a></li>
+          <li><a href="cover-letter.html">Cover Letters</a></li>
+          <!-- <li><a href="resource.html">Resources</a></li>   -->
+          <li class="dropdown">
+            <a href="#">Resources ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="/resources/resume-guide.html">Resume Guides</a></li>
+              <li><a href="/resources/cover-letter-guides.html">Cover Letter Guides</a></li>
+              <li><a href="/resources/interview-prepration.html">Interview Prep</a></li>
+              <li><a href="/resources/career-tips.html">Career Tips</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-bar">&#9776;</div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <script async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4618587510768918"
+          crossorigin="anonymous"></script>
+        <!-- for other web -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4618587510768918"
+          data-ad-slot="4479506919" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        <div class="hero-badge">Free ATS Tool</div>
+        <h1>Free ATS Resume Checker — <span>Scan & Score</span> Your Resume</h1>
+        <p class="hero-sub">Our AI-powered ATS scanner checks 30+ criteria and delivers instant, personalized
+          suggestions to boost your resume score — from any device.</p>
+        <div class="hero-proof">
+          <div class="proof-item">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            30% higher chance of getting a job
+          </div>
+          <div class="proof-item">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            42% higher response rate from recruiters
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><strong>2M+</strong><span>Resumes checked</span></div>
+          <div class="hero-stat"><strong>94%</strong><span>Fortune 500 use ATS</span></div>
+          <div class="hero-stat"><strong>75%</strong><span>Resumes never seen by humans</span></div>
+        </div>
+        <div class="seen-in">
+          <p>As seen in</p>
+          <div class="seen-in-logos">
+            <span class="logo-pill">Forbes</span>
+            <span class="logo-pill">USA Today</span>
+            <span class="logo-pill">CNBC</span>
+            <span class="logo-pill">BBC</span>
+            <span class="logo-pill">Inc.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOOL WIDGET -->
+      <div class="tool-card" id="main-tool">
+        <div class="tool-header">
+          <svg fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+          </svg>
+          <div class="tool-header-text">
+            <h2>ATS Resume Checker</h2>
+            <p>Get your score in seconds — 100% free</p>
+          </div>
+        </div>
+        <div class="steps-bar">
+          <div class="step-item active" id="sb1"><span class="step-num">1</span>Upload</div>
+          <div class="step-connector" id="sc1"></div>
+          <div class="step-item" id="sb2"><span class="step-num">2</span>ATS scan</div>
+          <div class="step-connector" id="sc2"></div>
+          <div class="step-item" id="sb3"><span class="step-num">3</span>View results</div>
+        </div>
+
+        <div id="input-area">
+          <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab('upload')">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+              </svg>
+              Upload File
+            </button>
+            <button class="tab-btn" onclick="switchTab('paste')">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+              </svg>
+              Paste Text
+            </button>
+          </div>
+          <div class="pane active" id="upload-pane">
+            <div class="upload-zone" id="drop-zone">
+              <input type="file" id="resume-file" accept=".pdf,.doc,.docx,.txt,.html,.rtf" />
+              <div class="upload-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.7">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                </svg></div>
+              <h3>Drag and drop your resume here</h3>
+              <p>or click to browse files</p>
+              <div class="file-types">
+                <span class="ft-badge">PDF</span><span class="ft-badge">DOC</span><span
+                  class="ft-badge">DOCX</span><span class="ft-badge">HTML</span><span class="ft-badge">RTF</span><span
+                  class="ft-badge">TXT</span>
+              </div>
+            </div>
+            <div class="file-ok" id="file-ok">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span id="file-ok-txt">File ready</span>
+            </div>
+          </div>
+          <div class="pane" id="paste-pane">
+            <textarea id="resume-text"
+              placeholder="Paste your full resume text here...&#10;&#10;Include all sections: contact info, summary, work experience, education, and skills."></textarea>
+          </div>
+          <div class="jd-section">
+            <div class="jd-label">Job Description <span class="opt-badge">Optional</span></div>
+            <textarea id="job-desc"
+              placeholder="Paste the job description for targeted keyword matching and role-specific scoring..."></textarea>
+            <p class="jd-hint">Adding a job description enables keyword gap analysis and match scoring.</p>
+          </div>
+          <div class="cta-row">
+            <button class="check-btn" id="check-btn" onclick="runAnalysis()">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+                <circle cx="11" cy="11" r="8" />
+                <path stroke-linecap="round" d="M21 21l-4.35-4.35" />
+              </svg>
+              Check My Resume Score
+            </button>
+            <p class="counter-note">Over <strong>2 million</strong> resumes checked — 100% free</p>
+          </div>
+        </div>
+
+        <div class="results-wrap" id="results-wrap">
+          <div class="loader" id="loader">
+            <div class="loader-ring"></div>
+            <p>Scanning your resume...</p>
+            <div class="loader-steps">
+              <div class="lstep" id="ls1"><span class="lstep-dot"></span>Parsing document structure</div>
+              <div class="lstep" id="ls2"><span class="lstep-dot"></span>Scoring ATS compatibility</div>
+              <div class="lstep" id="ls3"><span class="lstep-dot"></span>Extracting &amp; matching keywords</div>
+              <div class="lstep" id="ls4"><span class="lstep-dot"></span>Generating recommendations</div>
+            </div>
+          </div>
+          <div id="results-content"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="links">
+    <a href="https://gstcalculator247.com/" target="_blank">GST Calculator</a>
+    <a href="https://gstcalculator247.com/" target="_blank">Fres GST Calculator</a>
+    <a href="https://gstcalculator247.com/" target="_blank">Fres GST Calculator Australia</a>
+  </div>
+
+  <!-- WHAT WE CHECK -->
+  <section class="section">
+    <div class="section-inner">
+      <p class="section-tag">What we analyze</p>
+      <h2 class="section-h2">What Our ATS Resume Scanner Checks</h2>
+      <p class="section-sub">Our scanner analyzes key criteria across 3 major categories and offers actionable
+        recommendations to optimize your resume for ATS and recruiter review.</p>
+      <div class="checks-grid">
+        <div class="check-card">
+          <div class="ci-wrap blue"><svg fill="none" viewBox="0 0 24 24" stroke="#2563EB" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+            </svg></div>
+          <h3>Content</h3>
+          <div class="cg">
+            <div class="cg-title">Customization</div>
+            <ul>
+              <li>Relevant qualifications</li>
+              <li>Industry-specific skills</li>
+            </ul>
+          </div>
+          <div class="cg">
+            <div class="cg-title">Spelling &amp; Grammar</div>
+            <ul>
+              <li>Correct spelling and grammar</li>
+              <li>Consistent punctuation</li>
+            </ul>
+          </div>
+          <div class="cg">
+            <div class="cg-title">Word Choice</div>
+            <ul>
+              <li>Strong action verbs</li>
+              <li>Professional language and tone</li>
+            </ul>
+          </div>
+        </div>
+        <div class="check-card">
+          <div class="ci-wrap green"><svg fill="none" viewBox="0 0 24 24" stroke="#16A34A" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+            </svg></div>
+          <h3>Key Sections</h3>
+          <div class="cg">
+            <div class="cg-title">Contact Information</div>
+            <ul>
+              <li>Relevant contact details</li>
+              <li>Organized resume header</li>
+            </ul>
+          </div>
+          <div class="cg">
+            <div class="cg-title">Professional Summary</div>
+            <ul>
+              <li>Clear and focused summary</li>
+              <li>Core qualifications included</li>
+            </ul>
+          </div>
+          <div class="cg">
+            <div class="cg-title">Measurable Results</div>
+            <ul>
+              <li>Highlights quantified results</li>
+              <li>Job-relevant work experience</li>
+            </ul>
+          </div>
+        </div>
+        <div class="check-card">
+          <div class="ci-wrap purple"><svg fill="none" viewBox="0 0 24 24" stroke="#7C3AED" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7" />
+            </svg></div>
+          <h3>Structure</h3>
+          <div class="cg">
+            <div class="cg-title">Formatting</div>
+            <ul>
+              <li>File format and size</li>
+              <li>ATS-friendly layout</li>
+            </ul>
+          </div>
+          <div class="cg">
+            <div class="cg-title">Optimal Length</div>
+            <ul>
+              <li>Concise and focused content</li>
+              <li>Well-organized sections</li>
+            </ul>
+          </div>
+          <div class="cg">
+            <div class="cg-title">Comprehensiveness</div>
+            <ul>
+              <li>All key sections included</li>
+              <li>Complete work history</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section how-section">
+    <div class="section-inner">
+      <p class="section-tag">Simple 4-step process</p>
+      <h2 class="section-h2">How Our ATS Checker Works</h2>
+      <p class="section-sub">From upload to optimized resume, our free tool walks you through every step of getting
+        ATS-ready.</p>
+      <div class="how-grid">
+        <div class="how-step">
+          <div class="how-num">1</div>
+          <h3>Upload Your Resume</h3>
+          <p>Upload from any device — PDF, DOC, DOCX, or plain text. Our scanner reads your file instantly.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-num">2</div>
+          <h3>Review Your Report</h3>
+          <p>Review your personalized ATS score and detailed report. See exactly which sections need improvement.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-num">3</div>
+          <h3>Optimize With AI</h3>
+          <p>Follow AI-generated recommendations to fix formatting, add missing keywords, and boost your score.</p>
+        </div>
+        <div class="how-step">
+          <div class="how-num">4</div>
+          <h3>Download &amp; Apply</h3>
+          <p>Download your ATS-optimized resume in your preferred format and apply with confidence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST NUMBERS -->
+  <section class="section">
+    <div class="section-inner" style="text-align:center">
+      <p class="section-tag">Why ATS matters</p>
+      <h2 class="section-h2">The Numbers Don't Lie</h2>
+      <p class="section-sub" style="margin:0 auto">ATS optimization is the single biggest factor standing between your
+        resume and a human reviewer.</p>
+      <div class="trust-grid">
+        <div class="trust-card">
+          <div class="trust-num">98%</div>
+          <div class="trust-lbl">Fortune 500 use ATS</div>
+          <div class="trust-sub">to filter applicants before human review</div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-num">75%</div>
+          <div class="trust-lbl">Resumes rejected by ATS</div>
+          <div class="trust-sub">before a recruiter ever sees them</div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-num">2.3×</div>
+          <div class="trust-lbl">More interview callbacks</div>
+          <div class="trust-sub">with an ATS-optimized resume</div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-num">80+</div>
+          <div class="trust-lbl">Target ATS score</div>
+          <div class="trust-sub">for a strong chance at human review</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" style="background:var(--gray-50);border-top:1px solid var(--gray-200)">
+    <div class="section-inner">
+      <div style="text-align:center">
+        <p class="section-tag">Got questions?</p>
+        <h2 class="section-h2">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">What is an applicant tracking system (ATS)?<svg fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+            </svg></button>
+          <div class="faq-a">An applicant tracking system (ATS) is software that employers use to collect, scan, and
+            manage resumes throughout the hiring process. It reviews skills, experience, and keywords that match the job
+            description, helping recruiters quickly identify qualified candidates. Because ATS plays a critical role in
+            early screening, optimizing your resume for it significantly increases your chances of reaching a human
+            reviewer.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">What is a good ATS score for a resume?<svg fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+            </svg></button>
+          <div class="faq-a">A strong ATS resume score is typically 80% or higher, which indicates good alignment with
+            the job posting and improves the chances your application will reach the hiring manager. Scores vary
+            depending on the specific role and how closely your experience matches the job description, which is why
+            tailoring your resume for each application is important.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">How can I tell if my resume is ATS-compliant?<svg fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+            </svg></button>
+          <div class="faq-a">Scanning your resume with an ATS checker is the best way to verify compliance. Key
+            indicators of an ATS-friendly resume include: using a standard file format (PDF or DOCX), avoiding tables
+            and complex graphics that ATS cannot parse, using standard section headings, and incorporating relevant
+            keywords from the job description throughout your content.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">What file format is best for ATS?<svg fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+            </svg></button>
+          <div class="faq-a">The best resume file format for ATS is Word (.doc or .docx). Most applicant tracking
+            systems parse Word files accurately. Modern ATS tools can also read text-based PDF files with simple
+            formatting, but some older systems may struggle with PDFs. When in doubt, submit a Word file unless the
+            employer specifically requests another format.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">How can I check my resume score for free?<svg fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+            </svg></button>
+          <div class="faq-a">Use our free ATS Resume Checker above — upload your resume (PDF, DOC, DOCX, or TXT) or
+            paste your text, and optionally add a job description for more targeted analysis. You'll instantly receive
+            an ATS score, a breakdown across key categories, keyword analysis, and specific recommendations to improve
+            your score. No sign-up required.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM CTA -->
+  <section class="cta-section">
+    <h2>Get Your Free ATS Score Now</h2>
+    <p>Upload your resume and get instant, actionable feedback to pass ATS filters and reach more hiring managers.</p>
+    <button class="cta-btn" onclick="document.getElementById('main-tool').scrollIntoView({behavior:'smooth'})">
+      <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+      </svg>
+      Check My Resume Score — Free
+    </button>
+  </section>
+
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <!-- <h3>WebWell Software Solution</h3> -->
+        <a href="/" class="nav-logo">
+
+          <h2> ATS Resume Checker</h2>
+        </a>
+        <p>
+          # Thank you for visiting our website <br>
+          # Connect with us over socials <br>
+          # Connect with us over live chat <br>
+          # Keep Rising
+        </p>
+      </div>
+
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="/"><i class="fas fa-chevron-circle-right"></i> Home</a>
+        <a href="index.html"><i class="fas fa-chevron-circle-right"></i> ATS Checker</a>
+        <a href="resume-builder.html"><i class="fas fa-chevron-circle-right"></i> Resume Builder</a>
+        <a href="cover-letter.html"><i class="fas fa-chevron-circle-right"></i> cover-letter</a>
+      </div>
+
+
+      <div class="box">
+        <h3>Contact info</h3>
+        <p> <i class="fas fa-phone"></i>+91 987-654-3210</p>
+        <p> <i class="fas fa-envelope"></i>atsresumechecker@gmail.com</p>
+        <p> <i class="fas fa-map-marked-alt"></i>New Delhi, India</p>
+
+
+        <div class="share">
+          <a href="https://www.linkedin.com/ target=" _blank">
+            <i class="fab fa-linkedin"></i>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+
+          <a href="https://instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+            <span class="sr-only">Instagram</span>
+          </a>
+
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fab fa-twitter"></i>
+            <span class="sr-only">Twitter</span>
+          </a>
+
+          <a href="mailto:atsresumechecker@gmail.com" target="_blank">
+            <i class="fas fa-envelope"></i>
+            <span class="sr-only">Email</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/nasirali84"> Nasir Ali</a></h1> -->
+    <p class="credit">© 2025 ATS-Resume-Checker, Inc. All rights reserved.</p>
+
+  </section>
+
+  <script>
+    const menuBar = document.querySelector(".menu-bar");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuBar.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+
+      if (navLinks.classList.contains("active")) {
+        menuBar.innerHTML = "&times;";
+      } else {
+        menuBar.innerHTML = "&#9776;";
+      }
+    })
+
+  </script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

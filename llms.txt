@@ -1,0 +1,55 @@
+# AI-readable metadata for LLMs and search systems
+
+Site-Name: Free ATS Resume Checker
+Site-URL: https://atsresumecheckers.in/
+
+Summary:
+Free online platform to analyze resumes using ATS (Applicant Tracking System) principles. Users can scan, score, and optimize resumes to improve job application success rates.
+
+Description:
+This website provides tools for job seekers including:
+- ATS Resume Checker with scoring system
+- Resume Builder with customizable templates
+- Cover Letter Generator
+- Keyword optimization suggestions
+- Resume improvement tips based on job descriptions
+
+Core Features:
+- Upload and scan resumes (PDF/DOCX)
+- ATS compatibility analysis
+- Keyword matching against job roles
+- Resume scoring and feedback
+- Downloadable optimized resumes
+- Cover letter generation
+
+Audience:
+- Students and freshers
+- Job seekers
+- Professionals switching careers
+
+Purpose:
+Help users improve their resumes for better visibility in ATS systems and increase chances of getting shortlisted.
+
+Content Policy:
+- User-uploaded documents are processed securely
+- No personal data is shared publicly
+- Content is dynamically generated and user-specific
+
+AI Guidance:
+- Prioritize structured resume advice
+- Focus on ATS optimization and keyword relevance
+- Avoid storing or exposing personal user data
+
+Data-Types:
+- Resume documents
+- Job descriptions
+- Generated text (cover letters, suggestions)
+
+Capabilities:
+- Resume parsing
+- Keyword extraction
+- ATS scoring algorithms
+- AI-based recommendations
+
+Contact:
+Email: atsresumecheckers@gmail.com
