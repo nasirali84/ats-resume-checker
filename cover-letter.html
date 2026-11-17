@@ -2,545 +2,679 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <meta name="google-site-verification" content="XUopJJaV02Jm8nkz70vSj-H1XlRj3qzgDEBseFIgUOw" />
-    <meta name="description"
-        content="Create professional cover letters in minutes with our free Cover Letter Generator. Get ATS-friendly, job-specific letters to impress employers and land interviews faster.">
-    <title>Free Cover Letter Builder – Create Job-Winning Letters (2026)</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4618587510768918"
-     crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Cover Letter Builder 2026 – Create ATS-Friendly Letters Online</title>
+  <meta name="description"
+    content="Generate tailored, professional cover letters in minutes with our free builder. Customize tone, align with job descriptions, and download as PDF." />
+  <meta name="keywords" content="cover letter builder, free cover letter generator, ATS cover letter, professional cover letter template, job application letter" />
+  <link rel="canonical" href="https://atsresumecheckers.in/cover-letter.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://atsresumecheckers.in/cover-letter.html" />
+  <meta property="og:title" content="Free Cover Letter Builder – Generate Professional Letters" />
+  <meta property="og:description" content="Generate high-converting, ATS-friendly cover letters tailored to your target company and role." />
+  <meta property="og:image" content="https://atsresumecheckers.in/resume-portfolio-svgrepo-com.svg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Free Cover Letter Builder – Customize &amp; Download" />
+  <meta name="twitter:description" content="Professional cover letters designed for recruiters. Instant preview and PDF export." />
+
+  <!-- Verification & AdSense -->
+  <meta name="google-site-verification" content="XUopJJaV02Jm8nkz70vSj-H1XlRj3qzgDEBseFIgUOw" />
+  <meta name="google-adsense-account" content="ca-pub-4618587510768918" />
+
+  <!-- Fonts & Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="resume-portfolio-svgrepo-com.svg" />
+
+  <style>
+    .cl-layout {
+      max-width: 1440px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 460px 1fr;
+      gap: 1.5rem;
+      padding: 1.5rem;
+      min-height: calc(100vh - 72px);
+    }
+
+    .cl-panel-left {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-xl);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      overflow-y: auto;
+      max-height: calc(100vh - 100px);
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .cl-quality-card {
+      background: linear-gradient(135deg, #eff6ff 0%, #f5f3ff 100%);
+      border: 1.5px solid var(--primary-mid);
+      border-radius: var(--radius-lg);
+      padding: 1.125rem;
+    }
+
+    .cl-quality-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .cl-quality-title {
+      font-size: 0.875rem;
+      font-weight: 800;
+      color: var(--gray-800);
+    }
+
+    .cl-quality-score {
+      font-size: 0.9375rem;
+      font-weight: 800;
+      background: var(--primary);
+      color: var(--white);
+      padding: 3px 12px;
+      border-radius: var(--radius-full);
+    }
+
+    .tone-grid-select {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .tone-pill-btn {
+      padding: 6px 10px;
+      border-radius: var(--radius-md);
+      border: 1.5px solid var(--gray-200);
+      background: var(--white);
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--gray-700);
+      cursor: pointer;
+      text-align: center;
+      transition: all var(--transition-fast);
+    }
+
+    .tone-pill-btn:hover {
+      border-color: var(--primary-mid);
+      color: var(--primary);
+    }
+
+    .tone-pill-btn.active {
+      background: var(--primary-light);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    /* Paper Document for Cover Letter */
+    .cl-paper-sheet-wrap {
+      background: #525659;
+      border-radius: var(--radius-xl);
+      padding: 2.5rem 1.5rem;
+      display: flex;
+      justify-content: center;
+      box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.15);
+      overflow-x: auto;
+    }
+
+    .cl-paper-sheet {
+      width: 100%;
+      max-width: 800px;
+      min-height: 1050px;
+      background: var(--white);
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
+      padding: 60px 65px;
+      color: #1e293b;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.7;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .cl-doc-sender {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+
+    .cl-doc-sender h2 {
+      font-size: 24px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 2px;
+    }
+
+    .cl-doc-sender-title {
+      font-size: 14px;
+      color: var(--primary);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .cl-doc-sender-contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 12px;
+      color: #64748b;
+    }
+
+    .cl-doc-date {
+      font-size: 13px;
+      color: #64748b;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+
+    .cl-doc-recipient {
+      margin-bottom: 22px;
+      font-size: 13px;
+      color: #334155;
+      line-height: 1.5;
+    }
+
+    .cl-doc-recipient strong {
+      display: block;
+      color: #0f172a;
+    }
+
+    .cl-doc-subject {
+      background: var(--primary-light);
+      border-left: 3px solid var(--primary);
+      padding: 8px 14px;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 24px;
+    }
+
+    .cl-doc-body p {
+      font-size: 13.5px;
+      color: #334155;
+      margin-bottom: 16px;
+      line-height: 1.75;
+    }
+
+    .cl-doc-closing {
+      margin-top: 32px;
+      font-size: 13.5px;
+    }
+
+    .cl-doc-sign-name {
+      font-size: 16px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-top: 14px;
+    }
+
+    .cl-doc-sign-title {
+      font-size: 12.5px;
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    /* Print styling */
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+      .cl-paper-sheet, .cl-paper-sheet * {
+        visibility: visible;
+      }
+      .cl-paper-sheet-wrap {
+        padding: 0 !important;
+        background: transparent !important;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+      .cl-paper-sheet {
+        box-shadow: none !important;
+        padding: 25mm !important;
+        margin: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+      @page {
+        size: A4;
+        margin: 0;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      .cl-layout {
+        grid-template-columns: 1fr;
+      }
+      .cl-panel-left {
+        max-height: none;
+      }
+      .cl-paper-sheet {
+        padding: 35px 25px;
+      }
+    }
+  </style>
 </head>
 
-<style>
-    .ai-btn,.tmpl-btn,.tone-btn{cursor:pointer}.tmpl-btn.active,.tone-btn.active,.tone-btn:hover{border-color:var(--blue);background:var(--blue-light)}#cl-doc,#resume-doc{font-family:'DM Sans',sans-serif}.ai-btn,.cl-recipient-name,.cl-sender-name,.preview-label,.quality-score,.quality-title,.rv-company,.rv-name,.rv-sec-title,.tmpl-btn,.tone-btn{font-family:'Plus Jakarta Sans',sans-serif}.page{display:flex;gap:20px;padding:90px 20px 30px;max-width:1400px}.panel-left{width:35%;min-width:320px;display:flex;flex-direction:column;gap:15px}.panel-right{width:65%;display:flex;flex-direction:column;gap:15px;position:sticky;top:90px;height:fit-content}.section-card{background:#fff;border:1px solid var(--gray-200);border-radius:12px;overflow:hidden;transition:.2s}.section-card:hover{box-shadow:0 4px 20px rgba(0,0,0,.05)}.section-header{padding:12px 15px;background:var(--gray-50);display:flex;justify-content:space-between;cursor:pointer}.form-row.full,.quality-bars{flex-direction:column}.section-title{display:flex;gap:8px;font-weight:700}.section-body{padding:12px}.form-row{display:flex;gap:10px;margin-bottom:10px}.form-group{flex:1}.form-group input,.form-group textarea{width:100%;padding:8px 10px;border-radius:6px;border:1px solid var(--gray-200);font-size:12px}textarea{resize:vertical;min-height:80px}.cl-wrapper{padding:20px}#cl-doc{background:#fff;border-radius:10px;max-width:700px;margin:auto}@media (max-width:1024px){.page{flex-direction:column}.panel-left,.panel-right{width:100%}.panel-right{position:relative;top:0}}@media (max-width:768px){.page{padding:80px 10px}.panel-left{gap:12px}.section-header{font-size:13px}.form-row{flex-direction:column}#cl-doc{padding:20px}}@media (max-width:480px){.tone-grid{grid-template-columns:repeat(2,1fr)}.tmpl-btn{font-size:10px;padding:4px 8px}}.quality-panel{background:#fff;border:1.5px solid var(--gray-200);border-radius:var(--radius);padding:15px}.quality-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:13px}.cl-recipient-name,.quality-title{font-weight:700;font-size:13px;color:var(--gray-900)}.quality-score{background:linear-gradient(135deg,#7c3aed,#6d28d9);color:#fff;border-radius:20px;padding:3px 12px;font-size:14px;font-weight:800}.quality-bar-label,.tone-btn{font-size:11px;color:var(--gray-600)}.quality-bars{display:flex;gap:8px}.cl-sender-contacts,.quality-bar-row{display:flex;flex-direction:column;gap:3px}.quality-bar-label{display:flex;justify-content:space-between;font-weight:500}.quality-bar-track{height:5px;background:var(--gray-100);border-radius:10px;overflow:hidden}.quality-bar-fill{height:100%;border-radius:10px;transition:width .5s}.bar-blue{background:linear-gradient(90deg,#2563eb,#60a5fa)}.bar-purple{background:linear-gradient(90deg,#7c3aed,#a78bfa)}.bar-green{background:linear-gradient(90deg,#16a34a,#4ade80)}.tone-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:12px}.tone-btn{padding:7px 6px;border:1.5px solid var(--gray-200);border-radius:8px;background:#fff;font-weight:600;transition:.15s;text-align:center}.char-counter,.cl-date,.cl-logo-area{text-align:right}.tone-btn.active,.tone-btn:hover{color:var(--blue)}.ai-btn{width:100%;padding:10px;border-radius:9px;border:none;background:linear-gradient(135deg,#2563eb,#7c3aed);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:7px;transition:.2s}#cl-doc,#resume-doc,.preview-label{color:var(--gray-900)}.ai-btn:hover{opacity:.9;transform:translateY(-1px);box-shadow:0 4px 16px rgba(124,58,237,.3)}.ai-btn .ai-icon{font-size:16px}.ai-loading{display:none}.preview-topbar{display:flex;align-items:center;justify-content:space-between;flex-shrink:0}.preview-label{font-weight:800;font-size:15px;display:flex;align-items:center;gap:8px}.live-dot{width:8px;height:8px;background:#22c55e;border-radius:50%;animation:1.8s infinite pulse}@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.5)}}.template-row{display:flex;gap:7px}.tmpl-btn{padding:5px 12px;border-radius:20px;font-size:11px;font-weight:600;border:1.5px solid var(--gray-200);background:#fff;color:var(--gray-500);transition:.15s}.tmpl-btn.active{color:var(--blue)}.cl-wrapper,.resume-wrapper{background:#fff;border-radius:14px;box-shadow:var(--shadow-lg);overflow:hidden;flex:1;min-height:620px}#resume-doc{padding:40px 44px}.rv-header{border-bottom:3px solid var(--blue);padding-bottom:18px;margin-bottom:22px}.rv-name{font-size:27px;font-weight:800;letter-spacing:-.5px;line-height:1;margin-bottom:4px}.rv-job-title{font-size:13px;font-weight:500;color:var(--blue);margin-bottom:10px}.rv-contacts{display:flex;flex-wrap:wrap;gap:14px}.rv-contact{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--gray-600)}.rv-contact .ci{color:var(--blue);font-size:12px}.rv-sec-title{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--blue);border-bottom:1px solid var(--blue-mid);padding-bottom:5px;margin-bottom:11px}.rv-section{margin-bottom:20px}.rv-summary{font-size:12.5px;line-height:1.65;color:var(--gray-600)}.rv-entry{margin-bottom:12px}.rv-entry-top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:2px}.rv-company{font-size:13px;font-weight:700}.rv-date{font-size:11px;color:var(--gray-400)}.rv-role{font-size:12px;color:var(--blue);font-weight:600;margin-bottom:3px}.rv-desc{font-size:12px;color:var(--gray-600);line-height:1.6}.rv-skills{display:flex;flex-wrap:wrap;gap:5px}.rv-skill{background:var(--blue-light);color:var(--blue);border:1px solid var(--blue-mid);padding:2px 9px;border-radius:20px;font-size:11px;font-weight:600}.rv-two-col{display:grid;grid-template-columns:1fr 1fr;gap:22px}#cl-doc{padding:48px 52px;min-height:100%}.cl-letterhead{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:32px;padding-bottom:20px;border-bottom:2px solid var(--blue)}.cl-sender-name{font-size:22px;font-weight:800;letter-spacing:-.3px;margin-bottom:4px}.cl-sender-title{font-size:12px;color:var(--blue);font-weight:600;margin-bottom:8px}.cl-sign-name,.cl-subject{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800}.cl-sender-contact{font-size:11px;color:var(--gray-500);display:flex;align-items:center;gap:5px}.cl-logo-box{width:48px;height:48px;background:var(--blue);border-radius:12px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;margin-left:auto;margin-bottom:6px}.cl-date{font-size:12px;color:var(--gray-400)}.cl-recipient{margin-bottom:24px}.cl-sign-close,.cl-subject{margin-bottom:20px;font-size:13px}.cl-recipient-sub{font-size:12px;color:var(--gray-500);margin-top:2px}.cl-subject{color:var(--blue);padding:10px 14px;background:var(--blue-light);border-left:3px solid var(--blue);border-radius:0 8px 8px 0}.cl-body{font-size:13px;line-height:1.8;color:var(--gray-700)}.cl-body p{margin-bottom:16px}.cl-body p:last-child{margin-bottom:0}.cl-sign{margin-top:28px}.cl-sign-close{color:var(--gray-600)}.cl-sign-name{font-size:16px;color:var(--gray-900)}.cl-sign-title{font-size:12px;color:var(--blue);font-weight:600}.cl-placeholder{color:var(--gray-300);font-style:italic}::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:0 0}::-webkit-scrollbar-thumb{background:var(--gray-200);border-radius:10px}.inline-form{border:1px solid var(--blue-mid);border-radius:9px;padding:12px;background:var(--blue-light);margin-bottom:10px;display:none}.inline-form.show{display:block}.char-counter{font-size:10px;color:var(--gray-400);margin-top:3px}.char-counter.warn{color:var(--amber)}@media print{.page,body,html{margin:0!important;padding:0!important}@page{size:A4;margin:0}body,html{background:#fff!important}body *{visibility:hidden}#cl-doc,#cl-doc *{visibility:visible}#cl-doc{position:fixed;top:0;left:0;width:210mm;padding:18mm;background:#fff;box-sizing:border-box;page-break-after:avoid;page-break-inside:avoid;box-shadow:none!important;border-radius:0!important;font-size:12pt;line-height:1.7}.footer,.panel-left,.preview-topbar,nav{display:none!important}.cl-body,.cl-letterhead,.cl-sign{break-inside:avoid}}
-</style>
-
 <body>
-    <nav>
-        <div class="navcont">
-            <a href="/">
-                <div class="logo">
-                    <h2><img src="/resume-portfolio-svgrepo-com.svg" height="50px" alt="logo"> ATS Resume Checker</h2>
-                </div>
+  <!-- Global Navigation Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo" aria-label="ATS Resume Checker Home">
+        <div class="brand-icon-wrap">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">ATS <span>Checker</span> <span class="brand-badge">Free</span></span>
+          <span class="brand-subtitle">Smart Career Tools</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link"><i class="fas fa-check-circle"></i> ATS Checker</a></li>
+          <li class="nav-item"><a href="resume-builder.html" class="nav-link"><i class="fas fa-file-alt"></i> Resume Builder</a></li>
+          <li class="nav-item"><a href="cover-letter.html" class="nav-link active"><i class="fas fa-envelope-open-text"></i> Cover Letter</a></li>
+          <li class="nav-item">
+            <a href="javascript:void(0)" class="nav-link dropdown-trigger">
+              <i class="fas fa-book-open"></i> Career Guides
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
             </a>
+            <ul class="nav-dropdown">
+              <li><a href="/resources/resume-guide.html"><i class="fas fa-file-contract"></i> Resume Writing Guide</a></li>
+              <li><a href="/resources/cover-letter-guides.html"><i class="fas fa-envelope"></i> Cover Letter Guide</a></li>
+              <li><a href="/resources/interview-prepration.html"><i class="fas fa-user-tie"></i> Interview Preparation</a></li>
+              <li><a href="/resources/career-tips.html"><i class="fas fa-lightbulb"></i> Career Growth Tips</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="resume-builder.html" class="nav-cta-btn"><i class="fas fa-magic"></i> Build Resume</a>
+          </li>
+        </ul>
+      </nav>
 
+      <button class="mobile-toggle-btn" aria-label="Toggle navigation menu">&#9776;</button>
+    </div>
+  </header>
+  <div class="mobile-overlay"></div>
 
-            <div class="navLinks">
-                <ul class="nav-links">
-                    <li><a href="/" class="active">ATS Checker</a></li>
-                    <li><a href="resume-builder.html">Resume Builder</a></li>
-                    <li><a href="cover-letter.html">Cover Letters</a></li>
-                    <!-- <li><a href="resource.html">Resources</a></li>   -->
-                    <li class="dropdown">
-                        <a href="#">Resources ▾</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="/resources/resume-guide.html">Resume Guides</a></li>
-                            <li><a href="/resources/cover-letter-guides.html">Cover Letter Guides</a></li>
-                            <li><a href="/resources/interview-prepration.html">Interview Prep</a></li>
-                            <li><a href="/resources/career-tips.html">Career Tips</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="menu-bar">&#9776;</div>
+  <!-- Cover Letter Builder Layout -->
+  <main class="cl-layout">
+    <!-- Left Column: Controls & Form Inputs -->
+    <div class="cl-panel-left">
+      <!-- Quality Score Bar -->
+      <div class="cl-quality-card">
+        <div class="cl-quality-header">
+          <span class="cl-quality-title"><i class="fas fa-award" style="color:#2563eb;"></i> Letter Quality Score</span>
+          <span class="cl-quality-score" id="cl-quality-score">85%</span>
         </div>
-    </nav>
+        <p style="font-size:0.8rem;color:#475569;">Tailored, concise, and structured for modern hiring managers.</p>
+      </div>
 
+      <!-- Quick Actions -->
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <button type="button" class="btn-action-tool" onclick="loadSampleCoverLetter()"><i class="fas fa-magic"></i> Load Sample</button>
+        <button type="button" class="btn-action-tool" onclick="saveCoverLetterDraft()"><i class="fas fa-save"></i> Save Draft</button>
+      </div>
 
-    <!-- ===================================================
-     PAGE 2: COVER LETTER
-=================================================== -->
-    <center>
-        <h1 style="margin-top: 100px;font-size: larger; color: #2563EB;">Free Cover Letter Builder – Create Job-Winning
-            Letters in Minutes</h1>
-    </center>
-    <div class="page" id="page-coverletter">
-
-        <!-- LEFT -->
-        <div class="panel-left">
-
-            <!-- QUALITY PANEL -->
-            <div class="quality-panel">
-                <div class="quality-header">
-                    <div class="quality-title">✨ Letter Quality</div>
-                    <div class="quality-score" id="cl-quality-score">68%</div>
-                </div>
-                <div class="quality-bars">
-                    <div class="quality-bar-row">
-                        <div class="quality-bar-label"><span>Personalization</span><span
-                                id="bar-personal-pct">70%</span></div>
-                        <div class="quality-bar-track">
-                            <div class="quality-bar-fill bar-blue" id="bar-personal" style="width:70%"></div>
-                        </div>
-                    </div>
-                    <div class="quality-bar-row">
-                        <div class="quality-bar-label"><span>Tone & Clarity</span><span id="bar-tone-pct">80%</span>
-                        </div>
-                        <div class="quality-bar-track">
-                            <div class="quality-bar-fill bar-purple" id="bar-tone" style="width:80%"></div>
-                        </div>
-                    </div>
-                    <div class="quality-bar-row">
-                        <div class="quality-bar-label"><span>Completeness</span><span id="bar-complete-pct">55%</span>
-                        </div>
-                        <div class="quality-bar-track">
-                            <div class="quality-bar-fill bar-green" id="bar-complete" style="width:55%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- RECIPIENT -->
-            <div class="section-card open active-card" id="clsec-recipient">
-                <div class="section-header" onclick="toggleSection('clsec-recipient')">
-                    <div class="section-title">
-                        <div class="section-icon">🏢</div> Job & Recipient
-                    </div>
-                    <div class="section-toggle">▾</div>
-                </div>
-                <div class="section-body">
-                    <div class="form-row full">
-                        <div class="form-group"><label>Position Applying For</label><input id="cl-position"
-                                placeholder="e.g. Senior Product Designer" oninput="updateCLPreview()"></div>
-                    </div>
-                    <div class="form-row full">
-                        <div class="form-group"><label>Company Name</label><input id="cl-company"
-                                placeholder="e.g. Google" oninput="updateCLPreview()"></div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group"><label>Hiring Manager</label><input id="cl-manager"
-                                placeholder="Ms. Jane Smith" oninput="updateCLPreview()"></div>
-                        <div class="form-group"><label>Their Title</label><input id="cl-manager-title"
-                                placeholder="Head of Design" oninput="updateCLPreview()"></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- YOUR INFO (auto-synced) -->
-            <div class="section-card" id="clsec-sender">
-                <div class="section-header" onclick="toggleSection('clsec-sender')">
-                    <div class="section-title">
-                        <div class="section-icon">👤</div> Your Details
-                    </div>
-                    <div class="section-toggle">▾</div>
-                </div>
-                <div class="section-body">
-                    <div
-                        style="background:var(--blue-light);border:1px solid var(--blue-mid);border-radius:8px;padding:8px 11px;font-size:12px;color:var(--blue);margin-bottom:10px;font-weight:500;">
-                        ✨ Auto-synced from Resume Builder
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group"><label>First Name</label><input id="cl-firstName" value="Alex"
-                                oninput="updateCLPreview()"></div>
-                        <div class="form-group"><label>Last Name</label><input id="cl-lastName" value="Johnson"
-                                oninput="updateCLPreview()"></div>
-                    </div>
-                    <div class="form-row full">
-                        <div class="form-group"><label>Your Title</label><input id="cl-myTitle"
-                                value="Senior Product Designer" oninput="updateCLPreview()"></div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group"><label>Email</label><input id="cl-email" value="alex@email.com"
-                                oninput="updateCLPreview()"></div>
-                        <div class="form-group"><label>Phone</label><input id="cl-phone" value="+1 234 567 8900"
-                                oninput="updateCLPreview()"></div>
-                    </div>
-                    <div class="form-row full">
-                        <div class="form-group"><label>Location</label><input id="cl-location" value="San Francisco, CA"
-                                oninput="updateCLPreview()"></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- TONE -->
-            <div class="section-card" id="clsec-tone">
-                <div class="section-header" onclick="toggleSection('clsec-tone')">
-                    <div class="section-title">
-                        <div class="section-icon">🎨</div> Tone & Style
-                    </div>
-                    <div class="section-toggle">▾</div>
-                </div>
-                <div class="section-body">
-                    <label style="margin-bottom:7px;display:block;">Select Tone</label>
-                    <div class="tone-grid">
-                        <button class="tone-btn active" onclick="setTone('professional',this)">🤝 Professional</button>
-                        <button class="tone-btn" onclick="setTone('confident',this)">💪 Confident</button>
-                        <button class="tone-btn" onclick="setTone('enthusiastic',this)">🌟 Enthusiastic</button>
-                        <button class="tone-btn" onclick="setTone('formal',this)">📜 Formal</button>
-                        <button class="tone-btn" onclick="setTone('friendly',this)">😊 Friendly</button>
-                        <button class="tone-btn" onclick="setTone('creative',this)">🎭 Creative</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- LETTER CONTENT -->
-            <div class="section-card open" id="clsec-content">
-                <div class="section-header" onclick="toggleSection('clsec-content')">
-                    <div class="section-title">
-                        <div class="section-icon">✍️</div> Letter Content
-                    </div>
-                    <div class="section-toggle">▾</div>
-                </div>
-                <div class="section-body">
-                    <div class="form-group" style="margin-bottom:10px;">
-                        <label>Opening Paragraph</label>
-                        <textarea id="cl-opening" class="tall"
-                            placeholder="Introduce yourself and state the position you're applying for..."
-                            oninput="updateCLPreview(); updateCLQuality()">I am writing to express my strong interest in the [Position] role at [Company]. With over six years of experience designing intuitive digital products, I am excited about the opportunity to bring my skills to your innovative team.</textarea>
-                    </div>
-                    <div class="form-group" style="margin-bottom:10px;">
-                        <label>Why You're a Great Fit</label>
-                        <textarea id="cl-body1" class="tall"
-                            placeholder="Highlight key achievements and relevant experience..."
-                            oninput="updateCLPreview(); updateCLQuality()">Throughout my career at Stripe and Airbnb, I have led design initiatives that measurably improved user engagement — including a 23% increase in dashboard conversion and a 31% reduction in host onboarding drop-off. I specialize in creating scalable design systems and conducting user research that directly informs product strategy.</textarea>
-                    </div>
-                    <div class="form-group" style="margin-bottom:10px;">
-                        <label>Why This Company</label>
-                        <textarea id="cl-body2" placeholder="Show genuine interest in the company..."
-                            oninput="updateCLPreview(); updateCLQuality()">I admire [Company]'s commitment to building products that genuinely improve people's lives. Your design culture — one that values both craft and data — aligns perfectly with how I work.</textarea>
-                    </div>
-                    <div class="form-group">
-                        <label>Closing Paragraph</label>
-                        <textarea id="cl-closing" placeholder="Call to action, thank you..."
-                            oninput="updateCLPreview(); updateCLQuality()">I would love the opportunity to discuss how my background can contribute to your team's goals. Thank you for your time and consideration — I look forward to the possibility of speaking with you.</textarea>
-                    </div>
-                </div>
-            </div>
-
+      <!-- Section: Target Job & Recipient -->
+      <div class="form-card open" id="clcard-job">
+        <div class="form-card-header" onclick="toggleFormCard('clcard-job')">
+          <span class="form-card-title"><i class="fas fa-building"></i> Job &amp; Employer Info</span>
+          <span class="form-card-toggle">▾</span>
         </div>
-
-        <!-- RIGHT -->
-        <div class="panel-right">
-            <div class="preview-topbar">
-                <div class="preview-label">
-                    <div class="live-dot"></div> Cover Letter Preview
-                </div>
-                <div style="display:flex;align-items:center;gap:12px;">
-                    <div class="template-row">
-                        <button class="tmpl-btn active" onclick="setCLTemplate('modern',this)">Modern</button>
-                        <button class="tmpl-btn" onclick="setCLTemplate('elegant',this)">Elegant</button>
-                        <button class="tmpl-btn" onclick="setCLTemplate('minimal',this)">Minimal</button>
-                    </div>
-                    <button
-                        style="font-size:12px; border: none; background-color: #2563EB; color: #f8fafc; padding: 10px; border-radius: 10px;"
-                        class="btn btn-primary btn-sm" onclick="window.print()">🖨 Export PDF</button>
-                </div>
+        <div class="form-card-body">
+          <div class="builder-row full">
+            <div class="builder-field">
+              <label>Target Job Title</label>
+              <input type="text" id="cl-job-title" value="Senior Product Designer" oninput="updateCoverLetterLive()" />
             </div>
-            <div class="cl-wrapper">
-                <div id="cl-doc">
-                    <!-- LETTERHEAD -->
-                    <div class="cl-letterhead">
-                        <div>
-                            <div class="cl-sender-name" id="cl-rv-name">Alex Johnson</div>
-                            <div class="cl-sender-title" id="cl-rv-title">Senior Product Designer</div>
-                            <div class="cl-sender-contacts">
-                                <div class="cl-sender-contact">✉ <span id="cl-rv-email">alex@email.com</span></div>
-                                <div class="cl-sender-contact">📞 <span id="cl-rv-phone">+1 234 567 8900</span></div>
-                                <div class="cl-sender-contact">📍 <span id="cl-rv-location">San Francisco, CA</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cl-logo-area">
-                            <div class="cl-logo-box">📄</div>
-                            <div class="cl-date" id="cl-rv-date"></div>
-                        </div>
-                    </div>
-                    <!-- RECIPIENT -->
-                    <div class="cl-recipient">
-                        <div class="cl-recipient-name" id="cl-rv-manager">Hiring Manager</div>
-                        <div class="cl-recipient-sub" id="cl-rv-company-line">Company · Position</div>
-                    </div>
-                    <!-- SUBJECT -->
-                    <div class="cl-subject" id="cl-rv-subject">Re: Application for [Position] at [Company]</div>
-                    <!-- BODY -->
-                    <div class="cl-body">
-                        <p id="cl-rv-opening">I am writing to express my strong interest in the [Position] role at
-                            [Company]. With
-                            over six years of experience designing intuitive digital products, I am excited about the
-                            opportunity to
-                            bring my skills to your innovative team.</p>
-                        <p id="cl-rv-body1">Throughout my career at Stripe and Airbnb, I have led design initiatives
-                            that measurably
-                            improved user engagement — including a 23% increase in dashboard conversion and a 31%
-                            reduction in host
-                            onboarding drop-off.</p>
-                        <p id="cl-rv-body2">I admire [Company]'s commitment to building products that genuinely improve
-                            people's
-                            lives. Your design culture aligns perfectly with how I work.</p>
-                        <p id="cl-rv-closing">I would love the opportunity to discuss how my background can contribute
-                            to your
-                            team's goals. Thank you for your time and consideration.</p>
-                    </div>
-                    <!-- SIGNATURE -->
-                    <div class="cl-sign">
-                        <div class="cl-sign-close">Warm regards,</div>
-                        <div class="cl-sign-name" id="cl-rv-sign-name">Alex Johnson</div>
-                        <div class="cl-sign-title" id="cl-rv-sign-title">Senior Product Designer</div>
-                    </div>
-                </div>
+          </div>
+          <div class="builder-row full">
+            <div class="builder-field">
+              <label>Company / Organization Name</label>
+              <input type="text" id="cl-company" value="Stripe Technologies" oninput="updateCoverLetterLive()" />
             </div>
+          </div>
+          <div class="builder-row">
+            <div class="builder-field">
+              <label>Hiring Manager Name</label>
+              <input type="text" id="cl-manager" value="Sarah Jenkins" oninput="updateCoverLetterLive()" />
+            </div>
+            <div class="builder-field">
+              <label>Manager Title</label>
+              <input type="text" id="cl-manager-title" value="Director of Product Design" oninput="updateCoverLetterLive()" />
+            </div>
+          </div>
         </div>
+      </div>
+
+      <!-- Section: Sender Personal Details -->
+      <div class="form-card" id="clcard-sender">
+        <div class="form-card-header" onclick="toggleFormCard('clcard-sender')">
+          <span class="form-card-title"><i class="fas fa-user-circle"></i> Your Information</span>
+          <span class="form-card-toggle">▾</span>
+        </div>
+        <div class="form-card-body">
+          <div class="builder-row">
+            <div class="builder-field">
+              <label>Your Full Name</label>
+              <input type="text" id="cl-name" value="Alex Rivera" oninput="updateCoverLetterLive()" />
+            </div>
+            <div class="builder-field">
+              <label>Your Current Title</label>
+              <input type="text" id="cl-my-title" value="Senior Product Designer" oninput="updateCoverLetterLive()" />
+            </div>
+          </div>
+          <div class="builder-row">
+            <div class="builder-field">
+              <label>Email Address</label>
+              <input type="email" id="cl-email" value="alex.rivera@email.com" oninput="updateCoverLetterLive()" />
+            </div>
+            <div class="builder-field">
+              <label>Phone Number</label>
+              <input type="text" id="cl-phone" value="(555) 342-8910" oninput="updateCoverLetterLive()" />
+            </div>
+          </div>
+          <div class="builder-row full">
+            <div class="builder-field">
+              <label>City &amp; State</label>
+              <input type="text" id="cl-location" value="San Francisco, CA" oninput="updateCoverLetterLive()" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section: Tone & Salutation -->
+      <div class="form-card" id="clcard-tone">
+        <div class="form-card-header" onclick="toggleFormCard('clcard-tone')">
+          <span class="form-card-title"><i class="fas fa-feather-alt"></i> Tone &amp; Style</span>
+          <span class="form-card-toggle">▾</span>
+        </div>
+        <div class="form-card-body">
+          <label style="font-size:0.75rem;font-weight:700;color:var(--gray-600);text-transform:uppercase;">Select Closing Tone</label>
+          <div class="tone-grid-select">
+            <button type="button" class="tone-pill-btn active" onclick="setCoverLetterTone('professional', this)">Professional</button>
+            <button type="button" class="tone-pill-btn" onclick="setCoverLetterTone('confident', this)">Confident</button>
+            <button type="button" class="tone-pill-btn" onclick="setCoverLetterTone('enthusiastic', this)">Enthusiastic</button>
+            <button type="button" class="tone-pill-btn" onclick="setCoverLetterTone('formal', this)">Formal</button>
+            <button type="button" class="tone-pill-btn" onclick="setCoverLetterTone('friendly', this)">Friendly</button>
+            <button type="button" class="tone-pill-btn" onclick="setCoverLetterTone('warm', this)">Warm</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section: Letter Paragraphs -->
+      <div class="form-card open" id="clcard-content">
+        <div class="form-card-header" onclick="toggleFormCard('clcard-content')">
+          <span class="form-card-title"><i class="fas fa-paragraph"></i> Letter Body Content</span>
+          <span class="form-card-toggle">▾</span>
+        </div>
+        <div class="form-card-body">
+          <div class="builder-field" style="margin-bottom:10px;">
+            <label>1. Opening Paragraph (Hook &amp; Role)</label>
+            <textarea id="cl-opening" rows="3" oninput="updateCoverLetterLive()">I am writing to express my strong enthusiasm for the Senior Product Designer role at Stripe Technologies. With over six years of experience building accessible digital systems, improving conversion rates by 28%, and leading cross-functional teams, I am excited about the opportunity to contribute to your design organization.</textarea>
+          </div>
+          <div class="builder-field" style="margin-bottom:10px;">
+            <label>2. Key Accomplishments (Value Proposition)</label>
+            <textarea id="cl-body1" rows="4" oninput="updateCoverLetterLive()">Throughout my tenure at CloudScale and FinTech Innovations, I led the end-to-end redesign of high-traffic financial dashboards, cutting user drop-off by 34% and scaling a multi-brand design system utilized across 12 product lines. I combine rigorous user research with rapid prototyping to solve intricate user friction points.</textarea>
+          </div>
+          <div class="builder-field" style="margin-bottom:10px;">
+            <label>3. Company Fit (Why This Employer?)</label>
+            <textarea id="cl-body2" rows="3" oninput="updateCoverLetterLive()">I have long admired Stripe's relentless commitment to craft, simplicity, and developer experience. Your culture of moving fast while maintaining exceptional design integrity closely mirrors my professional philosophy.</textarea>
+          </div>
+          <div class="builder-field">
+            <label>4. Closing &amp; Call to Action</label>
+            <textarea id="cl-closing" rows="2" oninput="updateCoverLetterLive()">I welcome the opportunity to discuss how my design leadership can help Stripe reach its next milestones. Thank you for your time and consideration.</textarea>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-
-    <section class="footer">
-        <div class="box-container">
-
-            <div class="box">
-                <!-- <h3>WebWell Software Solution</h3> -->
-                <a href="/" class="nav-logo">
-
-                    <h2> ATS Resume Checker</h2>
-                </a>
-                <p>
-                    # Thank you for visiting our website <br>
-                    # Connect with us over socials <br>
-                    # Connect with us over live chat <br>
-                    # Keep Rising
-                </p>
-            </div>
-
-            <div class="box">
-                <h3>Quick links</h3>
-                <a href="/"><i class="fas fa-chevron-circle-right"></i> Home</a>
-                <a href="index.html"><i class="fas fa-chevron-circle-right"></i> ATS Checker</a>
-                <a href="resume-builder.html"><i class="fas fa-chevron-circle-right"></i> Resume Builder</a>
-                <a href="cover-letter.html"><i class="fas fa-chevron-circle-right"></i> cover-letter</a>
-            </div>
-
-            <div class="box">
-                <h3>Contact info</h3>
-                <p> <i class="fas fa-phone"></i>+91 987-654-3210</p>
-                <p> <i class="fas fa-envelope"></i>atsresumechecker@gmail.com</p>
-                <p> <i class="fas fa-map-marked-alt"></i>New Delhi, India</p>
-
-                <div class="share">
-                    <a href="https://www.linkedin.com/company/webwell-software-solution/" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                        <span class="sr-only">LinkedIn</span>
-                    </a>
-
-                    <a href="https://instagram.com/webwell_software_solution" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-
-                    <a href="https://twitter.com/WebWellSoft_Sol" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
-
-                    <a href="mailto:webwellsoftwaresolution@gmail.com" target="_blank">
-                        <i class="fas fa-envelope"></i>
-                        <span class="sr-only">Email</span>
-                    </a>
-
-                </div>
-            </div>
+    <!-- Right Column: Live Sheet Preview -->
+    <div class="builder-panel-right">
+      <div class="preview-toolbar">
+        <div class="preview-toolbar-left">
+          <div class="preview-label-badge">
+            <span class="pulse-dot"></span>
+            Live Cover Letter Preview
+          </div>
         </div>
 
-        <!-- <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/nasirali84"> Nasir Ali</a></h1> -->
-        <p class="credit">© 2025 ATS-Resume-Checker, Inc. All rights reserved.</p>
+        <div class="preview-toolbar-actions">
+          <button type="button" class="btn-action-tool primary" onclick="window.print()">
+            <i class="fas fa-print"></i> Export / Print PDF
+          </button>
+        </div>
+      </div>
 
-    </section>
+      <div class="cl-paper-sheet-wrap">
+        <div class="cl-paper-sheet" id="cl-doc-paper">
+          <!-- Sender Header -->
+          <div class="cl-doc-sender">
+            <h2 id="cl-pv-name">Alex Rivera</h2>
+            <div class="cl-doc-sender-title" id="cl-pv-title">Senior Product Designer</div>
+            <div class="cl-doc-sender-contact">
+              <span id="cl-pv-email"><i class="fas fa-envelope"></i> alex.rivera@email.com</span>
+              <span id="cl-pv-phone"><i class="fas fa-phone"></i> (555) 342-8910</span>
+              <span id="cl-pv-location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</span>
+            </div>
+          </div>
 
-    <script>
-        function v(id) {
-            const el = document.getElementById(id);
-            return el ? el.value : "";
-        }
+          <!-- Date -->
+          <div class="cl-doc-date" id="cl-pv-date">November 17, 2026</div>
 
-        function setText(id, value) {
-            const el = document.getElementById(id);
-            if (el) el.innerText = value;
-        }
-        document.addEventListener("DOMContentLoaded", function () {
-            updateCLPreview();
-        });
-        function syncCLFromResume() {
-            const fields = { 'cl-firstName': 'r-firstName', 'cl-lastName': 'r-lastName', 'cl-myTitle': 'r-jobTitle', 'cl-email': 'r-email', 'cl-phone': 'r-phone', 'cl-location': 'r-location' };
-            Object.entries(fields).forEach(([cl, r]) => {
-                const rEl = document.getElementById(r), clEl = document.getElementById(cl);
-                if (rEl && clEl && !clEl._edited) clEl.value = rEl.value;
-            });
-            updateCLPreview();
-        }
-        // mark as manually edited
-        ['cl-firstName', 'cl-lastName', 'cl-myTitle', 'cl-email', 'cl-phone', 'cl-location'].forEach(id => {
-            setTimeout(() => {
-                const el = document.getElementById(id);
-                if (el) el.addEventListener('input', () => el._edited = true);
-            }, 100);
-        });
+          <!-- Recipient -->
+          <div class="cl-doc-recipient">
+            <strong id="cl-pv-manager">Sarah Jenkins</strong>
+            <span id="cl-pv-manager-title">Director of Product Design</span><br />
+            <span id="cl-pv-company">Stripe Technologies</span>
+          </div>
 
-        function updateCLPreview() {
-            const fn = v('cl-firstName'), ln = v('cl-lastName');
-            const fullName = fn + ' ' + ln;
-            const myTitle = v('cl-myTitle');
-            const position = v('cl-position') || '[Position]';
-            const company = v('cl-company') || '[Company]';
-            const manager = v('cl-manager') || 'Hiring Manager';
-            const managerTitle = v('cl-manager-title') || '';
+          <!-- Subject -->
+          <div class="cl-doc-subject" id="cl-pv-subject">
+            Re: Application for Senior Product Designer Role
+          </div>
 
-            setText('cl-rv-name', fullName);
-            setText('cl-rv-title', myTitle);
-            setText('cl-rv-email', v('cl-email'));
-            setText('cl-rv-phone', v('cl-phone'));
-            setText('cl-rv-location', v('cl-location'));
-            setText('cl-rv-manager', manager);
-            setText('cl-rv-company-line', company + (managerTitle ? ' · ' + managerTitle : ''));
-            setText('cl-rv-subject', `Re: Application for ${position} at ${company}`);
-            setText('cl-rv-opening', v('cl-opening'));
-            setText('cl-rv-body1', v('cl-body1'));
-            setText('cl-rv-body2', v('cl-body2'));
-            setText('cl-rv-closing', v('cl-closing'));
-            setText('cl-rv-sign-name', fullName);
-            setText('cl-rv-sign-title', myTitle);
-            updateCLQuality();
-        }
+          <!-- Body -->
+          <div class="cl-doc-body">
+            <p id="cl-pv-salutation">Dear Sarah Jenkins,</p>
+            <p id="cl-pv-opening">I am writing to express my strong enthusiasm for the Senior Product Designer role at Stripe Technologies.</p>
+            <p id="cl-pv-body1">Throughout my tenure at CloudScale and FinTech Innovations, I led the end-to-end redesign of high-traffic financial dashboards...</p>
+            <p id="cl-pv-body2">I have long admired Stripe's relentless commitment to craft, simplicity, and developer experience.</p>
+            <p id="cl-pv-closing">I welcome the opportunity to discuss how my design leadership can help Stripe reach its next milestones.</p>
+          </div>
 
-        function updateCLQuality() {
-            const hasPosition = v('cl-position').length > 2;
-            const hasCompany = v('cl-company').length > 2;
-            const hasManager = v('cl-manager').length > 2;
-            const openingLen = v('cl-opening').length;
-            const body1Len = v('cl-body1').length;
-            const body2Len = v('cl-body2').length;
-            const closingLen = v('cl-closing').length;
+          <!-- Signoff -->
+          <div class="cl-doc-closing">
+            <div id="cl-pv-signoff">Sincerely,</div>
+            <div class="cl-doc-sign-name" id="cl-pv-sign-name">Alex Rivera</div>
+            <div class="cl-doc-sign-title" id="cl-pv-sign-title">Senior Product Designer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
-            const personal = Math.min(100, (hasPosition ? 33 : 0) + (hasCompany ? 33 : 0) + (hasManager ? 34 : 0));
-            const toneScore = 80;
-            const complete = Math.min(100, (openingLen > 50 ? 25 : 0) + (body1Len > 80 ? 25 : 0) + (body2Len > 40 ? 25 : 0) + (closingLen > 30 ? 25 : 0));
-            const overall = Math.round((personal + toneScore + complete) / 3);
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="footer-top-container">
+      <div class="footer-brand">
+        <h2>
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width:28px;height:28px;color:#2563eb">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+          </svg>
+          ATS Resume Checker
+        </h2>
+        <p>
+          Generate tailored, professional cover letters in minutes with our free builder. Customize tone, align with job descriptions, and download as PDF.
+        </p>
+      </div>
 
-            setBar('bar-personal', personal);
-            setBar('bar-tone', toneScore);
-            setBar('bar-complete', complete);
-            document.getElementById('cl-quality-score').textContent = overall + '%';
-        }
-        function setBar(id, pct) {
-            document.getElementById(id).style.width = pct + '%';
-            document.getElementById(id + '-pct').textContent = pct + '%';
-        }
+      <div class="footer-col">
+        <h3>Core Tools</h3>
+        <ul class="footer-links-list">
+          <li><a href="index.html"><i class="fas fa-chevron-right"></i> ATS Resume Scanner</a></li>
+          <li><a href="resume-builder.html"><i class="fas fa-chevron-right"></i> Free Resume Builder</a></li>
+          <li><a href="cover-letter.html"><i class="fas fa-chevron-right"></i> Cover Letter Generator</a></li>
+        </ul>
+      </div>
 
-        function setTone(tone, btn) {
-            document.querySelectorAll('.tone-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            currentTone = tone;
-            // Change closing salutation based on tone
-            const closings = { professional: 'Warm regards,', confident: 'Best,', enthusiastic: 'Excitedly,', formal: 'Yours sincerely,', friendly: 'Cheers,', creative: 'Creatively yours,' };
-            document.querySelector('.cl-sign-close').textContent = closings[tone] || 'Warm regards,';
-        }
+      <div class="footer-col">
+        <h3>Career Guides</h3>
+        <ul class="footer-links-list">
+          <li><a href="/resources/resume-guide.html"><i class="fas fa-chevron-right"></i> Resume Writing Guide</a></li>
+          <li><a href="/resources/cover-letter-guides.html"><i class="fas fa-chevron-right"></i> Cover Letter Tips</a></li>
+          <li><a href="/resources/interview-prepration.html"><i class="fas fa-chevron-right"></i> Interview Prep</a></li>
+        </ul>
+      </div>
 
-        function setCLTemplate(name, btn) {
-            document.querySelectorAll('#page-coverletter .tmpl-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            const doc = document.getElementById('cl-doc');
-            const letterhead = doc.querySelector('.cl-letterhead');
-            const subject = doc.querySelector('.cl-subject');
-            if (name === 'elegant') {
-                doc.style.fontFamily = 'Georgia, serif';
-                letterhead.style.borderBottomColor = '#1a1a1a';
-                subject.style.background = '#fafafa';
-                subject.style.borderLeftColor = '#1a1a1a';
-                subject.style.color = '#1a1a1a';
-                document.querySelectorAll('.cl-sender-title, .cl-sign-title').forEach(el => el.style.color = '#333');
-            } else if (name === 'minimal') {
-                doc.style.fontFamily = "'DM Sans', sans-serif";
-                letterhead.style.borderBottomColor = '#e2e8f0';
-                subject.style.background = '#f8fafc';
-                subject.style.borderLeftColor = '#94a3b8';
-                subject.style.color = '#475569';
-                document.querySelectorAll('.cl-sender-title, .cl-sign-title').forEach(el => el.style.color = '#64748b');
-            } else {
-                doc.style.fontFamily = "'DM Sans', sans-serif";
-                letterhead.style.borderBottomColor = '#2563EB';
-                subject.style.background = '#EFF6FF';
-                subject.style.borderLeftColor = '#2563EB';
-                subject.style.color = '#2563EB';
-                document.querySelectorAll('.cl-sender-title, .cl-sign-title').forEach(el => el.style.color = '#2563EB');
-            }
-        }
+      <div class="footer-col">
+        <h3>Company &amp; Legal</h3>
+        <ul class="footer-links-list">
+          <li><a href="about-us.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="contact-us.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+          <li><a href="privacy-policy.html"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+          <li><a href="terms-of-service.html"><i class="fas fa-chevron-right"></i> Terms of Service</a></li>
+          <li><a href="disclaimer.html"><i class="fas fa-chevron-right"></i> Disclaimer</a></li>
+          <li><a href="cookie-policy.html"><i class="fas fa-chevron-right"></i> Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
 
-        // ===== SAVE / LOAD =====
-        function saveDraft() {
-            const data = {
-                resume: {
-                    firstName: v('r-firstName'), lastName: v('r-lastName'), jobTitle: v('r-jobTitle'),
-                    email: v('r-email'), phone: v('r-phone'), location: v('r-location'), linkedin: v('r-linkedin'),
-                    summary: v('r-summary'), skills: rSkills, exps: rExps, edus: rEdus
-                },
-                cl: {
-                    position: v('cl-position'), company: v('cl-company'), manager: v('cl-manager'),
-                    managerTitle: v('cl-manager-title'), firstName: v('cl-firstName'), lastName: v('cl-lastName'),
-                    myTitle: v('cl-myTitle'), email: v('cl-email'), phone: v('cl-phone'), location: v('cl-location'),
-                    opening: v('cl-opening'), body1: v('cl-body1'), body2: v('cl-body2'), closing: v('cl-closing')
-                }
-            };
-            try { localStorage.setItem('atsDraft', JSON.stringify(data)); alert('✅ Draft saved successfully!'); }
-            catch (e) { alert('Could not save draft.'); }
-        }
+    <div class="footer-bottom-container">
+      <div class="footer-copyright">
+        &copy; 2026 ATS Resume Checker. All rights reserved. Free career optimization tools.
+      </div>
+      <ul class="footer-legal-inline">
+        <li><a href="privacy-policy.html">Privacy</a></li>
+        <li><a href="terms-of-service.html">Terms</a></li>
+        <li><a href="cookie-policy.html">Cookies</a></li>
+        <li><a href="contact-us.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
 
-        function loadDraft() {
-            try {
-                const saved = localStorage.getItem('atsDraft');
-                if (!saved) return;
-                const d = JSON.parse(saved);
-                if (d.resume) {
-                    const r = d.resume;
-                    ['firstName', 'lastName', 'jobTitle', 'email', 'phone', 'location', 'linkedin', 'summary'].forEach(f => {
-                        const el = document.getElementById('r-' + f); if (el && r[f]) el.value = r[f];
-                    });
-                    if (r.skills) rSkills = r.skills;
-                    if (r.exps) rExps = r.exps;
-                    if (r.edus) rEdus = r.edus;
-                }
-                if (d.cl) {
-                    const c = d.cl;
-                    const map = { 'cl-position': 'position', 'cl-company': 'company', 'cl-manager': 'manager', 'cl-manager-title': 'managerTitle', 'cl-firstName': 'firstName', 'cl-lastName': 'lastName', 'cl-myTitle': 'myTitle', 'cl-email': 'email', 'cl-phone': 'phone', 'cl-location': 'location', 'cl-opening': 'opening', 'cl-body1': 'body1', 'cl-body2': 'body2', 'cl-closing': 'closing' };
-                    Object.entries(map).forEach(([elId, key]) => {
-                        const el = document.getElementById(elId); if (el && c[key]) el.value = c[key];
-                    });
-                }
-            } catch (e) { }
-            renderSkills(); renderExp(); renderEdu(); updateResumePreview(); updateCLPreview();
-        }
+  <script>
+    let currentClosing = 'Sincerely,';
 
-        // ===== SET DATE =====
-        function setDate() {
-            const now = new Date();
-            const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-            document.getElementById('cl-rv-date').textContent = months[now.getMonth()] + ' ' + now.getDate() + ', ' + now.getFullYear();
-        }
+    function toggleFormCard(cardId) {
+      const card = document.getElementById(cardId);
+      if (card) card.classList.toggle('open');
+    }
 
-        // ===== INIT =====
-        setDate();
-        renderSkills();
-        renderExp();
-        renderEdu();
-        loadDraft();
-        updateResumePreview();
-        updateCLPreview();
-    </script>
-    <script>
-        const menuBar = document.querySelector(".menu-bar");
-        const navLinks = document.querySelector(".nav-links");
+    function setCoverLetterTone(tone, btn) {
+      document.querySelectorAll('.tone-pill-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const closings = {
+        professional: 'Sincerely,',
+        confident: 'Respectfully and best regards,',
+        enthusiastic: 'With enthusiasm and excitement,',
+        formal: 'Yours faithfully,',
+        friendly: 'Warm regards,',
+        warm: 'Best wishes,'
+      };
+      currentClosing = closings[tone] || 'Sincerely,';
+      updateCoverLetterLive();
+    }
 
-        menuBar.addEventListener("click", () => {
-            navLinks.classList.toggle("active");
+    function updateCoverLetterLive() {
+      const name = document.getElementById('cl-name')?.value.trim() || 'Your Name';
+      const myTitle = document.getElementById('cl-my-title')?.value.trim() || '';
+      const email = document.getElementById('cl-email')?.value.trim() || '';
+      const phone = document.getElementById('cl-phone')?.value.trim() || '';
+      const loc = document.getElementById('cl-location')?.value.trim() || '';
 
-            if (navLinks.classList.contains("active")) {
-                menuBar.innerHTML = "&times;";
-            } else {
-                menuBar.innerHTML = "&#9776;";
-            }
-        })
+      const jobTitle = document.getElementById('cl-job-title')?.value.trim() || 'Target Position';
+      const company = document.getElementById('cl-company')?.value.trim() || 'Company Name';
+      const manager = document.getElementById('cl-manager')?.value.trim() || 'Hiring Manager';
+      const managerTitle = document.getElementById('cl-manager-title')?.value.trim() || '';
 
-    </script>
+      const opening = document.getElementById('cl-opening')?.value.trim() || '';
+      const body1 = document.getElementById('cl-body1')?.value.trim() || '';
+      const body2 = document.getElementById('cl-body2')?.value.trim() || '';
+      const closing = document.getElementById('cl-closing')?.value.trim() || '';
+
+      // Update Preview
+      document.getElementById('cl-pv-name').textContent = name;
+      document.getElementById('cl-pv-title').textContent = myTitle;
+      document.getElementById('cl-pv-email').innerHTML = email ? `<i class="fas fa-envelope"></i> ${email}` : '';
+      document.getElementById('cl-pv-phone').innerHTML = phone ? `<i class="fas fa-phone"></i> ${phone}` : '';
+      document.getElementById('cl-pv-location').innerHTML = loc ? `<i class="fas fa-map-marker-alt"></i> ${loc}` : '';
+
+      document.getElementById('cl-pv-manager').textContent = manager;
+      document.getElementById('cl-pv-manager-title').textContent = managerTitle ? ` · ${managerTitle}` : '';
+      document.getElementById('cl-pv-company').textContent = company;
+      document.getElementById('cl-pv-subject').textContent = `Re: Application for ${jobTitle} Role at ${company}`;
+
+      document.getElementById('cl-pv-salutation').textContent = manager ? `Dear ${manager},` : 'Dear Hiring Team,';
+      document.getElementById('cl-pv-opening').textContent = opening;
+      document.getElementById('cl-pv-body1').textContent = body1;
+      document.getElementById('cl-pv-body2').textContent = body2;
+      document.getElementById('cl-pv-closing').textContent = closing;
+
+      document.getElementById('cl-pv-signoff').textContent = currentClosing;
+      document.getElementById('cl-pv-sign-name').textContent = name;
+      document.getElementById('cl-pv-sign-title').textContent = myTitle;
+    }
+
+    function loadSampleCoverLetter() {
+      document.getElementById('cl-name').value = 'Alex Rivera';
+      document.getElementById('cl-my-title').value = 'Senior Product Designer';
+      document.getElementById('cl-email').value = 'alex.rivera@email.com';
+      document.getElementById('cl-phone').value = '(555) 342-8910';
+      document.getElementById('cl-location').value = 'San Francisco, CA';
+      document.getElementById('cl-job-title').value = 'Senior Product Designer';
+      document.getElementById('cl-company').value = 'Stripe Technologies';
+      document.getElementById('cl-manager').value = 'Sarah Jenkins';
+      document.getElementById('cl-manager-title').value = 'Director of Product Design';
+      updateCoverLetterLive();
+      showToast('Loaded sample cover letter!');
+    }
+
+    function saveCoverLetterDraft() {
+      const draft = {
+        name: document.getElementById('cl-name').value,
+        title: document.getElementById('cl-my-title').value,
+        email: document.getElementById('cl-email').value,
+        phone: document.getElementById('cl-phone').value,
+        loc: document.getElementById('cl-location').value,
+        jobTitle: document.getElementById('cl-job-title').value,
+        company: document.getElementById('cl-company').value,
+        manager: document.getElementById('cl-manager').value,
+        managerTitle: document.getElementById('cl-manager-title').value,
+        opening: document.getElementById('cl-opening').value,
+        body1: document.getElementById('cl-body1').value,
+        body2: document.getElementById('cl-body2').value,
+        closing: document.getElementById('cl-closing').value,
+      };
+      localStorage.setItem('atsCoverLetterDraft', JSON.stringify(draft));
+      showToast('Cover letter draft saved!');
+    }
+
+    // Set today's date
+    const dateEl = document.getElementById('cl-pv-date');
+    if (dateEl) {
+      const now = new Date();
+      dateEl.textContent = now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    }
+
+    updateCoverLetterLive();
+  </script>
+  <script src="app.js"></script>
 </body>
 
 </html>
