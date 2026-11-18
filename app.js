@@ -856,14 +856,30 @@ function initMobileMenu() {
 
   if (!toggleBtn || !navMenu) return;
 
+  const closeMenu = () => {
+    navMenu.classList.remove('active');
+    if (overlay) overlay.classList.remove('active');
+    toggleBtn.innerHTML = '&#9776;';
+    document.body.style.overflow = '';
+  };
+
   const toggle = () => {
     const isActive = navMenu.classList.toggle('active');
     if (overlay) overlay.classList.toggle('active', isActive);
     toggleBtn.innerHTML = isActive ? '&times;' : '&#9776;';
+    document.body.style.overflow = isActive ? 'hidden' : '';
   };
 
   toggleBtn.addEventListener('click', toggle);
-  if (overlay) overlay.addEventListener('click', toggle);
+  if (overlay) overlay.addEventListener('click', closeMenu);
+
+  document.querySelectorAll('.nav-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      if (!link.classList.contains('dropdown-trigger')) {
+        closeMenu();
+      }
+    });
+  });
 }
 
 // Toast helper

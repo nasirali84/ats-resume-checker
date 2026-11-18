@@ -1,55 +1,30 @@
-# AI-readable metadata for LLMs and search systems
+# ATS Resume Checker
 
-Site-Name: Free ATS Resume Checker
-Site-URL: https://atsresumecheckers.in/
+> Free in-browser ATS resume checker, resume builder, and cover letter generator designed to help job seekers pass applicant tracking systems (ATS) and land more interviews with instant diagnostic scoring.
 
-Summary:
-Free online platform to analyze resumes using ATS (Applicant Tracking System) principles. Users can scan, score, and optimize resumes to improve job application success rates.
+## Core Tools
 
-Description:
-This website provides tools for job seekers including:
-- ATS Resume Checker with scoring system
-- Resume Builder with customizable templates
-- Cover Letter Generator
-- Keyword optimization suggestions
-- Resume improvement tips based on job descriptions
+- [ATS Resume Scanner](https://atsresumecheckers.in/): Free online tool evaluating resumes across 30+ recruiting criteria, structural ATS parsing, keyword gap analysis, and instant scoring.
+- [Resume Builder](https://atsresumecheckers.in/resume-builder.html): In-browser ATS-friendly resume creator with live preview, clean typography, and export options.
+- [Cover Letter Generator](https://atsresumecheckers.in/cover-letter.html): Interactive cover letter generator tailored to job descriptions and company profiles.
 
-Core Features:
-- Upload and scan resumes (PDF/DOCX)
-- ATS compatibility analysis
-- Keyword matching against job roles
-- Resume scoring and feedback
-- Downloadable optimized resumes
-- Cover letter generation
+## Career Guides & Resources
 
-Audience:
-- Students and freshers
-- Job seekers
-- Professionals switching careers
+- [Resume Writing Guide](https://atsresumecheckers.in/resources/resume-guide.html): Comprehensive step-by-step guide to writing ATS-compliant resumes with quantifiable achievements.
+- [Cover Letter Guide](https://atsresumecheckers.in/resources/cover-letter-guides.html): Strategies and frameworks for writing compelling cover letters that complement your resume.
+- [Interview Preparation](https://atsresumecheckers.in/resources/interview-prepration.html): Proven frameworks (STAR method) and sample answers for technical and behavioral interviews.
+- [Career Growth Tips](https://atsresumecheckers.in/resources/career-tips.html): Actionable career development strategies, salary negotiation insights, and networking practices.
 
-Purpose:
-Help users improve their resumes for better visibility in ATS systems and increase chances of getting shortlisted.
+## Legal & Information
 
-Content Policy:
-- User-uploaded documents are processed securely
-- No personal data is shared publicly
-- Content is dynamically generated and user-specific
+- [About Us](https://atsresumecheckers.in/about-us.html): Background, mission, browser-side privacy commitment, and technology behind ATS Resume Checker.
+- [Privacy Policy](https://atsresumecheckers.in/privacy-policy.html): Complete privacy disclosure detailing 100% in-browser document processing with no server uploads.
+- [Terms of Service](https://atsresumecheckers.in/terms-of-service.html): Usage terms, intellectual property, disclaimers, and user responsibilities.
+- [Contact Us](https://atsresumecheckers.in/contact-us.html): Inquiries, support requests, and user feedback form.
+- [Disclaimer](https://atsresumecheckers.in/disclaimer.html): Educational and informational purpose disclaimer, third-party advertising disclosures.
+- [Cookie Policy](https://atsresumecheckers.in/cookie-policy.html): Cookie categories, Google AdSense cookies, and user opt-out guidelines.
 
-AI Guidance:
-- Prioritize structured resume advice
-- Focus on ATS optimization and keyword relevance
-- Avoid storing or exposing personal user data
+## Optional
 
-Data-Types:
-- Resume documents
-- Job descriptions
-- Generated text (cover letters, suggestions)
-
-Capabilities:
-- Resume parsing
-- Keyword extraction
-- ATS scoring algorithms
-- AI-based recommendations
-
-Contact:
-Email: atsresumecheckers@gmail.com
+- [Robots Configuration](https://atsresumecheckers.in/robots.txt): Crawler rules and indexing directives.
+- [XML Sitemap](https://atsresumecheckers.in/sitemap.xml): Comprehensive URL directory for search engines.
